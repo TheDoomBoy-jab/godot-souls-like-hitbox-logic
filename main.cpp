@@ -1,6 +1,6 @@
 #include <iostream>
 
-int main() {
+int main(){
     std::cout << "Hello IIT Patna! DevOps journey started." << std::endl;
     return 0;
 }
