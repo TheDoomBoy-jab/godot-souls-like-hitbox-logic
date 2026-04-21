@@ -1,2 +1,0 @@
-echo "shruti is gay"
-
