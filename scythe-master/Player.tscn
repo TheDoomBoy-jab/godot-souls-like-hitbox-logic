@@ -1,0 +1,25 @@
+[gd_scene format=3 uid="uid://boteskqlt82qp"]
+
+[ext_resource type="Script" uid="uid://cnampdlqump08" path="res://player.gd" id="1_kpjcp"]
+[ext_resource type="Texture2D" uid="uid://wm56w6repd3p" path="res://Ogre-sheet.png" id="2_kne1u"]
+
+[node name="Player" type="CharacterBody2D" unique_id=1269638821]
+position = Vector2(-19, 0)
+collision_layer = 2
+collision_mask = 5
+script = ExtResource("1_kpjcp")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=2064342568]
+texture = ExtResource("2_kne1u")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=825913327]
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="." unique_id=123619087]
+
+[node name="Hitbox" type="Area2D" parent="." unique_id=898735498]
+collision_layer = 8
+collision_mask = 16
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Hitbox" unique_id=2111020537]
+
+[node name="Timer" type="Timer" parent="." unique_id=1977386181]

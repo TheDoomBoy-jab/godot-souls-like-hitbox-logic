@@ -1,0 +1,13 @@
+[gd_scene format=3 uid="uid://dd2o51a7l1omc"]
+
+[node name="Enemy" type="CharacterBody2D" unique_id=1169816186]
+collision_layer = 4
+collision_mask = 3
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=909290665]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1249794449]
+
+[node name="Area2D" type="Area2D" parent="." unique_id=255191095]
+collision_layer = 16
+collision_mask = 8

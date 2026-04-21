@@ -1,0 +1,8 @@
+[gd_scene format=3 uid="uid://ddw1c8ohvrk1g"]
+
+[node name="Node2D" type="Node2D" unique_id=378942472]
+
+[node name="StaticBody2D" type="StaticBody2D" parent="." unique_id=816775513]
+collision_mask = 0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D" unique_id=1325695832]
